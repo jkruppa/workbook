@@ -9,12 +9,25 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+  page-footer:
+    right: "This blog is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: |
+      Proudly supported by
+      [![](https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-flat.svg){fig-alt="RStudio" width=65px}](https://www.rstudio.com)
+
 
 format:
   html:
-    theme: cosmo
+    author: "Jochen Kruppa-Scheetz"
+    date: "10. July 2024"
+    theme:
+      light: [litera, styles.scss]
+      dark: [darkly, styles-dark.scss]
+    highlight-style: a11y-dark
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
     css: styles.css
     toc: true
 
-editor: visual
 
