@@ -3,31 +3,40 @@ project:
   output-dir: docs
 
 website:
-  title: "workbook"
+  title: "Workbook Bio Data Science"
+  site-url: https://jkruppa.github.io/workbook/
+  description: 'Inspired by the saying "An apple a day keeps the doctor away", this project titled "A Quarto tip a day keeps the docs away" is a playful attempt to share Quarto tips for a month leading up to my rstudio::conf(2022) keynote on Quarto.'
+  repo-url: https://github.com/jkruppa/workbook
+  repo-actions: [edit, issue]  
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
   page-footer:
-    right: "This blog is built with ❤️ and [Quarto](https://quarto.org/)."
     left: |
-      Proudly supported by
-      [![](https://www.rstudio.com/wp-content/uploads/2018/10/RStudio-Logo-flat.svg){fig-alt="RStudio" width=65px}](https://www.rstudio.com)
-
+      Workbook Bio Data Science wurde von <a href="https://www.hs-osnabrueck.de/prof-dr-jochen-kruppa/">Jochen Kruppa-Scheetz</a> geschrieben. 
+    right: |
+      Dieses Workbook wurde mit <a href="https://quarto.org/">Quarto</a> erstellt.
 
 format:
   html:
     author: "Jochen Kruppa-Scheetz"
     date: "10. July 2024"
     theme:
-      light: [litera, styles.scss]
-      dark: [darkly, styles-dark.scss]
-    highlight-style: a11y-dark
-    mainfont: "Atkinson Hyperlegible"
+      light: [litera]
+      dark: [sketchy]
+    highlight-style: tango
     code-copy: true
     code-overflow: wrap
     css: styles.css
     toc: true
+    code-annotations: hover
+    lightbox: true
+    toc-expand: 2
+    code-fold: show
+    code-block-border-left: true
+    code-summary: "R Code [zeigen / verbergen]"
+    code-tools: true
 
 

@@ -1,15 +1,14 @@
 ---
-title: "workbook"
+listing:
+  contents: "posts/*/index.qmd"
+  feed: true
+  sort: "date desc"
+  type: grid
+  categories: true
+  sort-ui: true
+  filter-ui: true
+  image-placeholder: images/image-placeholder.png
+  fields: [image, date, title, description]
+page-layout: full
+title-block-banner: true
 ---
-
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
-
-https://github.com/jthomasmock/themockup-blog/blob/master/_quarto.yml
-
-https://github.com/mine-cetinkaya-rundel/quarto-tip-a-day/blob/main/_quarto.yml
