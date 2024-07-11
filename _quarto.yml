@@ -21,15 +21,13 @@ website:
 
 format:
   html:
-    author: "Jochen Kruppa-Scheetz"
-    date: "10. July 2024"
+    author: "<a href='https://www.hs-osnabrueck.de/prof-dr-jochen-kruppa/'>Prof. Dr. Jochen Kruppa-Scheetz</a>"
     theme:
-      light: [litera]
-      dark: [sketchy]
+      light: [simplex]
+      dark: [darkly]
     highlight-style: tango
     code-copy: true
     code-overflow: wrap
-    css: styles.css
     toc: true
     code-annotations: hover
     lightbox: true
